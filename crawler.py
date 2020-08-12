@@ -16,8 +16,8 @@ chromedriver = '/usr/local/bin/chromedriver'
 driver = webdriver.Chrome(chromedriver, chrome_options=option)
 
 def login():
-    username = '18189818@smail.ilc.edu.tw'
-    password = 'entroy0421'
+    username = ''
+    password = ''
     url = 'https://www.facebook.com'
     driver.get(url)
     search_username = driver.find_element_by_name('email')
